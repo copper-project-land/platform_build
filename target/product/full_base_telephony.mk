@@ -25,7 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES := \
     net.tethering.noprovisioning=true
 
 PRODUCT_COPY_FILES := \
-    device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
