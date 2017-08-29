@@ -141,11 +141,11 @@ PRODUCT_PACKAGES += \
 
 # Make NTFS
 PRODUCT_PACKAGES += \
+    libext2_uuid \
     libntfs-3g \
     libfuse \
     mount.ntfs \
-    fsck.ntfs \
-    mkfs.ntfs
+    fsck.ntfs
 
 # Make exfat
 PRODUCT_PACKAGES += \
